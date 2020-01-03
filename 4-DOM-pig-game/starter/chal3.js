@@ -41,6 +41,10 @@ function init(){
 document.querySelector('.btn-roll').addEventListener('click',function(){
 
     if(gameplay){
+
+
+
+        
         
         var dice=Math.floor(Math.random()*6)+1;
         var dice2=Math.floor(Math.random()*6)+1;
